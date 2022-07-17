@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Styling</title>
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+          }
+
+    .navbar {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: blue;
+      border-radius: 5px;
+      overflow: auto;
+    }
+
+    .navbar li {
+      float:left;
+
+    }
+
+    .navbar li a {
+      color: blanchedalmond;
+      text-decoration: none;
+      display: block;
+      padding: 10px 20px;
+    }
+
+    .navbar li a:hover {
+      background-color: rgb(104, 26, 230);
+      color: white;
+    }
+
+    .side-menu {
+      list-style: none;
+      border: 1px rgb(58, 61, 122) solid;
+      border-radius: 10px;
+      width: 300px;
+      padding: 20px;
+    }
+
+    .side-menu li {
+      font-size: 18px;
+      line-height: 2.4em;
+      border-bottom: dotted 1px #ddd;
+
+    }
+
+    .side-menu li:last-child {
+      border: none;
+    }
+
+    .side-menu li a {
+      color: blueviolet;
+      text-decoration: dotted;
+    }
+
+    .side-menu li a:hover {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <ul class="navbar">
+    <li><a href="#">Cats</a></li>
+    <li><a href="#">Crowley</a></li>
+    <li><a href="#">Leo</a></li>
+    <li><a href="#">Stepan</a></li>
+  </ul>
+  <br>
+  <br>
+  <ul class="side-menu">
+    <li><a href="#">Cats</a></li>
+    <li><a href="#">Crowley</a></li>
+    <li><a href="#">Leo</a></li>
+    <li><a href="#">Stepan</a></li>
+  </ul>
+  
+</body>
+</html>

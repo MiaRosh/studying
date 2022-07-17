@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline & Block Styling</title>
+  <style>
+  
+    li {
+      display:inline;
+    }
+
+    li a {
+      padding-right: 20px;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+      background-position: center center;
+      height: 300px;
+      width: 600px;
+      object-fit: contain;
+      background-size: contain;
+      background: url(./img/leo.jpg) no-repeat center center/contain  ;
+    }
+
+    .box {
+      width: 32%;
+      display: inline-block;
+      box-sizing: border-box;
+      background: grey;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="#">Techonology</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">Fashion</a></li>
+  </ul>
+
+  <br><br>
+
+  <img src="./img/leo.jpg" alt="Levenuna">
+
+    <br><br>
+
+    <div class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi totam blanditiis iste cum fuga molestiae facilis expedita beatae molestias, debitis nostrum nihil, rem sunt quas quia similique nesciunt deserunt porro harum, odio officiis? Nam at cumque ex labore hic consequuntur, eius aliquid omnis nihil dolorum ratione tenetur voluptates officia. Odit.</p>
+    </div>
+    <div class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi totam blanditiis iste cum fuga molestiae facilis expedita beatae molestias, debitis nostrum nihil, rem sunt quas quia similique nesciunt deserunt porro harum, odio officiis? Nam at cumque ex labore hic consequuntur, eius aliquid omnis nihil dolorum ratione tenetur voluptates officia. Odit.</p>
+    </div>
+    <div class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi totam blanditiis iste cum fuga molestiae facilis expedita beatae molestias, debitis nostrum nihil, rem sunt quas quia similique nesciunt deserunt porro harum, odio officiis? Nam at cumque ex labore hic consequuntur, eius aliquid omnis nihil dolorum ratione tenetur voluptates officia. Odit.</p>
+    </div>
+</body>
+</html>
